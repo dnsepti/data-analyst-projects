@@ -1,6 +1,20 @@
-# Data Analyst Pilot Projects
-These are Data Analyst projects I completed when going through the Data Analyst training course in Practicum by Yandex. They involve Data Preprocessing, Analysis and Visualization, Statistical Analysis, etc.
+# Deskripsi Data
 
-Projects | Descriptions | Libraries
-:-------- | :------------ | :-------- |
-<a href="https://github.com/dnsepti/data-analyst-projects/blob/main/Analisis%20Penjualan%20Video%20Game" title="Analisis Penjualan Video Game"> Analisis Penjualan Video Game</a></p> | Menemukan game yang paling berpotensial dan merencanakan kampanye iklannya | *pandas, matplotlib, scipy, numpy, seaborn*
+- Name: nama game
+- Platform: nama platform dimana game dirilis
+- Year_of_Release: tahun rilis game
+- Genre: genre game
+- NA_sales: penjualan di Amerika Utara (dalam satuan juta USD)
+- EU_sales: penjualan di Eropa (dalam satuan juta USD)
+- JP_sales: penjualan di Jepang (dalam satuan juta USD)
+- Other_sales: penjualan di negara lainnya (dalam satuan juta USD)
+- Critic_Score: skor ulasan dari kritikus, maksimal 100
+- User_Score: skor ulasan dari pengguna, maksimal 10
+- Rating: rating dari ESRB
+
+# Tujuan
+- Mengidentifikasi pola-pola yang menentukan apakah suatu game dapat dikatakan berhasil atau tidak
+- Menemukan game yang paling berpotensial dan merencanakan kampanye iklannya di tahun selanjutnya
+
+# Libraries
+*pandas, matplotlib, scipy, numpy, seaborn* 
