@@ -28,4 +28,4 @@ We have three DataFrames as follows:
 This is the company where we will analyze data on visits to the Y.Afisha website from January 2017 to December 2018, sales data, and marketing cost statistics. From these data, we will help optimize the marketing budget, based on an analysis of related metrics. The end goal is to be able to tell marketing specialists how much money to invest and where to invest it.
 
 # Libraries
-*pandas, numpy, matplotlib, scipy, seaborn* 
+*pandas, numpy, matplotlib, scipy, seaborn, warnings* 
