@@ -1,11 +1,22 @@
-# Data Analyst Pilot Projects
-These are Data Analyst projects I completed when going through the Data Analyst training course in Practicum by Yandex. They involve Data Preprocessing, Analysis and Visualization, Statistical Analysis, etc.
+# Deskripsi Data
 
-Projects | Descriptions | Libraries
-:-------- | :------------ | :-------- |
-<a href="https://github.com/dnsepti/data-analyst-projects/tree/Project-Int-1" title="Analisis Penjualan Video Game"> Analisis Penjualan Video Game</a></p> | Menemukan game yang paling berpotensial dan merencanakan kampanye iklannya | *pandas, matplotlib, scipy, numpy, seaborn*
-<a href="https://github.com/dnsepti/data-analyst-projects/tree/Project-Spr-3" title="Faktor Apakah yang Menjual Sebuah Mobil?"> Faktor Apakah yang Menjual Sebuah Mobil?</a></p> | Mengidentifikasi dan menentukan faktor-faktor yang memengaruhi harga sebuah kendaraan | *pandas, matplotlib, seaborn*
-<a href="https://github.com/dnsepti/data-analyst-projects/tree/Project-Spr-6" title="Analisis Ride-Sharing Company"> Analisis Ride-Sharing Company</a></p> | Menganalisa pola-pola untuk memahami preferensi penumpang dan dampak faktor eksternal terhadap perjalanan | *pandas, matplotlib, scipy, seaborn*
-<a href="https://github.com/dnsepti/data-analyst-projects/tree/Project-Spr-7" title="Optimize the Marketing Budget on the Online Shop Website"> Optimize the Marketing Budget on the Online Shop Website</a></p> | Help to optimize the marketing budget based on an analysis of related metrics | *pandas, numpy, matplotlib, scipy, seaborn, warnings*
-<a href="https://github.com/dnsepti/data-analyst-projects/tree/Project-Spr-8" title="Analysis of Revenue in an Online Store"> Analysis of Revenue in an Online Store</a></p> | Help to prioritize hypotheses in order to increase revenue, run A/B testing, and analyze the results | *pandas, numpy, matplotlib, scipy, seaborn, warnings*
-<a href="https://github.com/dnsepti/data-analyst-projects/tree/Project-Spr-9" title="Analysis of Market Research Restaurants"> Analysis of Market Research Restaurants</a></p> | Help to draw conclusions regarding opportunities for chain-based business development | *to draw conclusions regarding opportunities for chain-based business development*
+- *`children`* - jumlah anak dalam keluarga
+- *`days_employed`* - pengalaman kerja dalam hari
+- *`dob_years`* - usia klien dalam tahun
+- *`education`* - pendidikan klien
+- *`education_id`* - tanda pengenal pendidikan
+- *`family_status`* - status perkawinan
+- *`family_status_id`* - tanda pengenal status perkawinan
+- *`gender`* - jenis kelamin klien
+- *`income_type`* - jenis pekerjaan
+- *`debt`* - apakah klien memiliki hutang pembayaran pinjaman
+- *`total_income`* - pendapatan bulanan
+- *`purpose`* - tujuan mendapatkan pinjaman
+
+
+# Tujuan
+- Mengidentifikasi hubungan antara ketepatan waktu dalam membayar pinnjaman dengan background nasabah
+- Membantu tim Penilaian Kredit dalam mengevaluasi kemampuan calon peminjam untuk melunasi pinjaman mereka
+
+# Libraries
+*pandas, numpy* 
