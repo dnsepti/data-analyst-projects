@@ -1,6 +1,4 @@
 # Data Description
-
-Data descriptions:
     
 * *`object_name`* — the name of business
 * *`chain`* — chain based attempt (TRUE/FALSE)
