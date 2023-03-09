@@ -1,15 +1,36 @@
-# Data Analyst Pilot Projects
-These are Data Analyst projects I completed when going through the Data Analyst training course in Practicum by Yandex. They involve Data Preprocessing, Analysis and Visualization, Statistical Analysis, etc.
+# Data Description
+    
+The dataset includes the following fields:
 
-Projects | Descriptions | Libraries
-:-------- | :------------ | :-------- |
-<a href="https://github.com/dnsepti/data-analyst-projects/tree/Project-Spr-1" title="Analisis Preferensi Musik User di Kota Besar"> Analisis Preferensi Musik User di Kota Besar</a></p> | Membandingkan preferensi musik pengguna di kota Springfield dan Shelbyville. | *pandas*
-<a href="https://github.com/dnsepti/data-analyst-projects/tree/Project-Int-1" title="Analisis Penjualan Video Game"> Analisis Penjualan Video Game</a></p> | Menemukan game yang paling berpotensial dan merencanakan kampanye iklannya | *pandas, matplotlib, scipy, numpy, seaborn*
-<a href="https://github.com/dnsepti/data-analyst-projects/tree/Project-Spr-2" title="Analisis risiko debitur gagal bayar pinjaman"> Analisis risiko debitur gagal bayar pinjaman</a></p> | Mengidentifikasi hubungan antara ketepatan waktu dalam membayar pinnjaman dengan background nasabah | *pandas, numpy*
-<a href="https://github.com/dnsepti/data-analyst-projects/tree/Project-Spr-3" title="Faktor Apakah yang Menjual Sebuah Mobil?"> Faktor Apakah yang Menjual Sebuah Mobil?</a></p> | Mengidentifikasi dan menentukan faktor-faktor yang memengaruhi harga sebuah kendaraan | *pandas, matplotlib, seaborn*
-<a href="https://github.com/dnsepti/data-analyst-projects/tree/Project-Spr-4" title="Analysis of Telecommunication Company"> Analysis of Telecommunication Company</a></p> | To analyze client behavior and determine which prepaid plans bring in more income. | *pandas, numpy, matplotlib, scipy, seaborn*
-<a href="https://github.com/dnsepti/data-analyst-projects/tree/Project-Spr-6" title="Analisis Ride-Sharing Company"> Analisis Ride-Sharing Company</a></p> | Menganalisa pola-pola untuk memahami preferensi penumpang dan dampak faktor eksternal terhadap perjalanan | *pandas, matplotlib, scipy, seaborn*
-<a href="https://github.com/dnsepti/data-analyst-projects/tree/Project-Spr-7" title="Optimize the Marketing Budget on the Online Shop Website"> Optimize the Marketing Budget on the Online Shop Website</a></p> | Help to optimize the marketing budget based on an analysis of related metrics | *pandas, numpy, matplotlib, scipy, seaborn, warnings*
-<a href="https://github.com/dnsepti/data-analyst-projects/tree/Project-Spr-8" title="Analysis of Revenue in an Online Store"> Analysis of Revenue in an Online Store</a></p> | Help to prioritize hypotheses in order to increase revenue, run A/B testing, and analyze the results | *pandas, numpy, matplotlib, scipy, seaborn, warnings*
-<a href="https://github.com/dnsepti/data-analyst-projects/tree/Project-Spr-9" title="Analysis of Market Research Restaurants"> Analysis of Market Research Restaurants</a></p> | Help to draw conclusions regarding opportunities for chain-based business development | *pandas, matplotlib, seaborn, plotly, warnings*
-<a href="https://github.com/dnsepti/data-analyst-projects/tree/Project-Spr-10" title="Application User Behavior Analysis"> Application User Behavior Analysis</a></p> | To investigate user behavior analysis of the Food Company app with event-based analytical | *pandas, numpy, matplotlib, plotly, scipy, math, seaborn, warnings*
+- `'Churn'` — the fact of churn for the month in question
+
+
+- Current dataset fields:
+    - User data for the preceding month
+        - `'gender'`
+        - `'Near_Location'` — whether the user lives or works in the neighborhood where the gym is located
+        - `'Partner'` — whether the user is an employee of a partner company (the gym has partner companies whose employees get discounts; in those cases the gym stores information on customers' employers)
+        - `Promo_friends` — whether the user originally signed up through a "bring a friend" offer (they used a friend's promo code when paying for their first membership)
+        - `'Phone'` — whether the user provided their phone number
+        - `'Age'`
+        - `'Lifetime'` — the time (in months) since the customer first came to the gym
+        
+- Data from the log of visits and purchases and data on current membership status
+    - `'Contract_period'` — 1 month, 3 months, 6 months, or 1 year
+    - `'Month_to_end_contract'` — the months remaining until the contract expires
+    - `'Group_visits'` — whether the user takes part in group sessions
+    - `'Avg_class_frequency_total'` — average frequency of visits per week over the customer's lifetime
+    - `'Avg_class_frequency_current_month'` — average frequency of visits per week over the preceding month
+    - `'Avg_additional_charges_total'` — the total amount of money spent on other gym services: cafe, athletic goods, cosmetics, massages, etc.
+
+# Purposes
+- Learn to predict the probability of churn (for the upcoming month) for each customer
+- Draw up typical user portraits: select the most outstanding groups and describe their main features
+- Analyze the factors that impact churn most
+- Draw basic conclusions and develop recommendations on how to improve customer service:
+  - Identify target groups
+  - Suggest measures to cut churn
+  - Describe any other patterns you see with respect to interaction with customers
+        
+# Libraries
+*pandas, numpy, matplotlib, scipy, sklearn, seaborn, warnings* 
