@@ -1,16 +1,42 @@
-# Data Analyst Pilot Projects
-These are Data Analyst projects I completed when going through the Data Analyst training course in Practicum by Yandex. They involve Data Preprocessing, Analysis and Visualization, Statistical Analysis, etc.
+# Data Description
 
-Projects | Descriptions | Libraries
-:-------- | :------------ | :-------- |
-<a href="https://github.com/dnsepti/data-analyst-projects/tree/Project-Spr-1" title="Analisis Preferensi Musik User di Kota Besar"> Analisis Preferensi Musik User di Kota Besar</a></p> | Membandingkan preferensi musik pengguna di kota Springfield dan Shelbyville. | *pandas*
-<a href="https://github.com/dnsepti/data-analyst-projects/tree/Project-Int-1" title="Analisis Penjualan Video Game"> Analisis Penjualan Video Game</a></p> | Menemukan game yang paling berpotensial dan merencanakan kampanye iklannya | *pandas, matplotlib, scipy, numpy, seaborn*
-<a href="https://github.com/dnsepti/data-analyst-projects/tree/Project-Spr-2" title="Analisis risiko debitur gagal bayar pinjaman"> Analisis risiko debitur gagal bayar pinjaman</a></p> | Mengidentifikasi hubungan antara ketepatan waktu dalam membayar pinnjaman dengan background nasabah | *pandas, numpy*
-<a href="https://github.com/dnsepti/data-analyst-projects/tree/Project-Spr-3" title="Faktor Apakah yang Menjual Sebuah Mobil?"> Faktor Apakah yang Menjual Sebuah Mobil?</a></p> | Mengidentifikasi dan menentukan faktor-faktor yang memengaruhi harga sebuah kendaraan | *pandas, matplotlib, seaborn*
-<a href="https://github.com/dnsepti/data-analyst-projects/tree/Project-Spr-4" title="Analysis of Telecommunication Company"> Analysis of Telecommunication Company</a></p> | To analyze client behavior and determine which prepaid plans bring in more income. | *pandas, numpy, matplotlib, scipy, seaborn*
-<a href="https://github.com/dnsepti/data-analyst-projects/tree/Project-Spr-6" title="Analisis Ride-Sharing Company"> Analisis Ride-Sharing Company</a></p> | Menganalisa pola-pola untuk memahami preferensi penumpang dan dampak faktor eksternal terhadap perjalanan | *pandas, matplotlib, scipy, seaborn*
-<a href="https://github.com/dnsepti/data-analyst-projects/tree/Project-Spr-7" title="Optimize the Marketing Budget on the Online Shop Website"> Optimize the Marketing Budget on the Online Shop Website</a></p> | Help to optimize the marketing budget based on an analysis of related metrics | *pandas, numpy, matplotlib, scipy, seaborn, warnings*
-<a href="https://github.com/dnsepti/data-analyst-projects/tree/Project-Spr-8" title="Analysis of Revenue in an Online Store"> Analysis of Revenue in an Online Store</a></p> | Help to prioritize hypotheses in order to increase revenue, run A/B testing, and analyze the results | *pandas, numpy, matplotlib, scipy, seaborn, warnings*
-<a href="https://github.com/dnsepti/data-analyst-projects/tree/Project-Spr-9" title="Analysis of Market Research Restaurants"> Analysis of Market Research Restaurants</a></p> | Help to draw conclusions regarding opportunities for chain-based business development | *pandas, matplotlib, seaborn, plotly, warnings*
-<a href="https://github.com/dnsepti/data-analyst-projects/tree/Project-Spr-10" title="Application User Behavior Analysis"> Application User Behavior Analysis</a></p> | To investigate user behavior analysis of the Food Company app with event-based analytical | *pandas, numpy, matplotlib, plotly, scipy, math, seaborn, warnings*
-<a href="https://github.com/dnsepti/data-analyst-projects/tree/Project-Spr-12" title="Analysis of The Customer Retention Strategy"> Analysis of The Customer Retention Strategy</a></p> | To predict the probability of customer churn and draw a customer retention strategy | *pandas, numpy, matplotlib, scipy, sklearn, seaborn, warnings*
+There are five tables, as follows:
+
+`books` Contains data on books:
+
+- `book_id`
+- `author_id`
+- `title`
+- `num_pages` — number of pages
+- `publication_date`
+- `publisher_id`
+
+`authors` Contains data on authors:
+
+- `author_id`
+- `author`
+
+`publishers` Contains data on publishers:
+
+- `publisher_id`
+- `publisher`
+
+`ratings` Contains data on user ratings:
+
+- `rating_id`
+- `book_id`
+- `username` — the name of the user who rated the book
+- `rating`
+
+`reviews` Contains data on customer reviews:
+
+- `review_id`
+- `book_id`
+- `username` — the name of the user who reviewed the book
+- `text` — the text of the review
+
+# Purposes
+- To generate a value proposition for a new product (books) based on an a database of one of the services competing in the market of startups that rushed to develop new apps for book lovers.
+        
+# Libraries
+*pandas, numpy, sqlalchemy* 
