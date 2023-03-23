@@ -36,7 +36,7 @@ There are five tables, as follows:
 - `text` — the text of the review
 
 # Purposes
-- To generate a value proposition for a new product (books) based on an a database of one of the services competing in the market of startups that rushed to develop new apps for book lovers.
+- To generate a value proposition for a new product (books) based on a database of one of the services competing in the market of startups that rushed to develop new apps for book lovers.
         
 # Libraries
 *pandas, numpy, sqlalchemy* 
