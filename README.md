@@ -30,7 +30,7 @@ Structure of `final_ab_participants_upd_us.csv`:
 # Purposes
 - We have received an analytical task from an international online store. Our predecessor failed to complete it: they launched an A/B test and then quit (to start a watermelon farm in Brazil). They left only the technical specifications and the test results; experiment name is recommender_system_test
 
-- Then, we have to rerun the A/B test to testing changes related to the introduction of an improved recommendation system.
+- Then, we have to rerun the A/B test to testing changes of the number of events related to the introduction of an improved recommendation system.
 
 # Libraries
 *pandas, numpy, matplotlib, seaborn, plotly, scipy, math* 
